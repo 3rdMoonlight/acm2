@@ -1,14 +1,14 @@
-#WHUST 2016 Individual Contest 3
+# WHUST 2016 Individual Contest 3
 
-##[A The Revenge of the Princess’ Knight ](http://acm.hust.edu.cn/vjudge/contest/121334#problem/A)
+## [A The Revenge of the Princess’ Knight ](http://acm.hust.edu.cn/vjudge/contest/121334#problem/A)
 
-###题目大意
+### 题目大意
 
 ```
 给你一个环形字符串切成k份，使字典序最大的部分字典序最小
 ```
 
-###解法
+### 解法
 
 ```
 首先吐槽一下百度上找到的这题代码都有问题_(:з」∠)_
@@ -25,9 +25,9 @@
 这样全部都找到之后就可以输出其中字典序最大的那个就可以了
 ```
 
-##[B Civilization](http://acm.hust.edu.cn/vjudge/contest/121334#problem/B)
+## [B Civilization](http://acm.hust.edu.cn/vjudge/contest/121334#problem/B)
 
-###题目大意
+### 题目大意
 
 ```
 给你一个无环无重边的无向图,然后有q个操作分别是
@@ -35,7 +35,7 @@
 2.给出两个结点,如果在不同联通块中则在这两个联通块中连边使得新的联通块中最长路径最短
 ```
 
-###解法
+### 解法
 
 ```
 其实是很简单的一道题,结果无环那个条件理解错了以为只是无重边,这样日子就没法过了
@@ -43,9 +43,9 @@
 而对于操作2则一定是两个联通块的最长路径的中点相连,这样也十分容易求
 ```
 
-##[C Serega and Fun](http://acm.hust.edu.cn/vjudge/contest/121334#problem/C)
+## [C Serega and Fun](http://acm.hust.edu.cn/vjudge/contest/121334#problem/C)
 
-###题目大意
+### 题目大意
 
 ```
 一个长度为n的序列有两种操作,一个是给出l,r然后把a[r]插到a[l]前面
